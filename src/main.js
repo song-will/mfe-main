@@ -13,13 +13,13 @@ new Vue({
 registerMicroApps([
   {
     name: 'vue app',
-    entry: '//124.221.44.7:3002',
+    entry: '/mfe/vue',
     container: '#sub-content',
     activeRule: '/vue-mfe'
   },
   {
     name: 'react app',
-    entry: '//124.221.44.7:3001',
+    entry: 'mfe/react',
     container: '#sub-content',
     activeRule: '/react-mfe'
   }
