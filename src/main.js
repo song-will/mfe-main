@@ -19,7 +19,7 @@ registerMicroApps([
   },
   {
     name: 'react app',
-    entry: 'mfe/react',
+    entry: '/mfe/react',
     container: '#sub-content',
     activeRule: '/react-mfe'
   }
