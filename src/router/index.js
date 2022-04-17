@@ -31,10 +31,10 @@ const router = new VueRouter({
 const childrenPath = ['/vue-mfe', '/react-mfe']
 router.beforeEach((to, from, next) => {
     if (to.name) {
-        next()
+        return next()
     }
     if (childrenPath.some(item => to.path.includes(item))) {
-        next()
+        return next()
     }
     next({name: '404'})
 })
