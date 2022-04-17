@@ -30,6 +30,7 @@ const router = new VueRouter({
 })
 const childrenPath = ['/vue-mfe', '/react-mfe']
 router.beforeEach((to, from, next) => {
+    console.log('to', to)
     if (to.name) {
         return next()
     }
